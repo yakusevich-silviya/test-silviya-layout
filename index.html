@@ -8,7 +8,7 @@
   
   <title>Document</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
  
@@ -33,16 +33,16 @@
 
     <div class="header-middle">
       <div class="container">
-        <div class="logo_block">
-          <img src="/image/logo.png" alt="logo">
-          <p class="company_name">BEAUTY</p>
+        <div class="header-middle__logo">
+          <img class="header-middle__image" src="./image/logo.png" alt="logo">
+          <p class="header-middle__name">BEAUTY</p>
 
-          <form action="#" method="GET">
-            <input class="search_field" type="text">
-            <input class="search_submit" type="submit">           
+          <form action="#" method="GET" class="header-middle__search">
+            <input class="header-middle__search-field" type="text">
+            <input class="header-middle__search-submit" type="submit">           
           </form>
-          <p class=tel_number>8 (812) 123-45-67</p>
-          <button class="callback"> Обратный звонок</button>
+          <p class=header-middle__telephone>8 (812) 123-45-67</p>
+          <button class="header-middle__callback-btn"> Обратный звонок</button>
         </div>
       </div>
 
@@ -87,36 +87,33 @@
     </section>
 
     <section class="offers">
-
       <div class="container">
-
         <h2 class="offers__title">Специальные предложения</h2>
         <div class="offers__cards">
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name"> Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
             <button class="offers__get-btn">Купить</button>
           </div>
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name"> Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
             <button class="offers__get-btn">Купить</button>
           </div>
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name">Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
             <button class="offers__get-btn">Купить</button>
           </div>
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name">Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
             <button class="offers__get-btn">Купить</button>
           </div>
-
         </div>
       </div>
     </section>
@@ -133,63 +130,140 @@
               <input class="email_field" type="email" placeholder="Введите e-mail">
               <input class="email_submit" type="submit">           
             </form>
-            <!-- <img src="/image/mail.png" alt="mail"> -->
-
           </div>
-
           <div class="commun_map">
             <h3 class="commun">Заходите к нам</h3>
-            <p class="text_commun">Более 300 магазинов<br>
-               по всей России</p>
+            <p class="text_commun">Более 300 магазинов<br>по всей России</p>
             <button class="shop_map_btn">Карта магазинов
             </button>
-            <!-- <img src="/image/map.png" alt="map"> -->
-
-
           </div>
-
         </div>
       </div>
     </section>
 
-        <section class="offers">
-
+    <section class="impuls">
       <div class="container">
+        <div class="impuls__cards">
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+          <div class="impuls__cards_separate">
+            <img src="./image/impuls.png" alt="impuls" class="impuls__cards_separate-image">
+          </div>
+        
+        </div>
+      </div>
+    </section>
 
+    <section class="offers">
+      <div class="container">
         <h2 class="offers__title">Вы недавно смотрели</h2>
         <div class="offers__cards">
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name"> Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
-            <button class="offers__get-btn offers__get-btn_green">Купить</button>
+            <button class="offers__get-btn offers__get-btn">Купить</button>
           </div>
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name"> Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
-            <button class="offers__get-btn offers__get-btn_green">Купить</button>
+            <button class="offers__get-btn offers__get-btn">Купить</button>
           </div>
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name">Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
-            <button class="offers__get-btn offers__get-btn_green">Купить</button>
+            <button class="offers__get-btn offers__get-btn">Купить</button>
           </div>
           <div class="offers__product-card" title="Парикмахерское кресло">
-            <img src="/image/product/chair.png" alt="chair" class="offers__cards-image">
+            <img src="./image/product/chair.png" alt="chair" class="offers__cards-image">
             <p class="offers__product-name">Парикмахерское кресло «Норм» гидравлическое</p>
             <p class="offers__product-price">9 900 ₽ </p>
-            <button class="offers__get-btn offers__get-btn_green">Купить</button>
+            <button class="offers__get-btn offers__get-btn">Купить</button>
           </div>
-
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer>
+  <footer class="footer">
+
+
+    <section class="footer-top">
+      <div class="container">
+        <div class="footer-menu">
+        <div class="footer-menu__column">
+          <h3 class="footer-menu__column-title">Популярные категории</h3>
+          <p class="footer-menu__column-item">Насадки</p>
+          <p class="footer-menu__column-item">Инструменты</p>
+          <p class="footer-menu__column-item">Гель-лаки</p>
+          <p class="footer-menu__column-item">Дизайн</p>
+          <p class="footer-menu__column-item">Наращивание</p>
+          <p class="footer-menu__column-item">Оборудование</p>
+        </div>
+        <div class="footer-menu__column">
+          <h3 class="footer-menu__column-title">Популярные категории</h3>
+          <p class="footer-menu__column-item">Насадки</p>
+          <p class="footer-menu__column-item">Инструменты</p>
+          <p class="footer-menu__column-item">Гель-лаки</p>
+          <p class="footer-menu__column-item">Дизайн</p>
+          <p class="footer-menu__column-item">Наращивание</p>
+          <p class="footer-menu__column-item">Оборудование</p>
+        </div>
+        <div class="footer-menu__column">
+          <h3 class="footer-menu__column-title">Популярные категории</h3>
+          <p class="footer-menu__column-item">Насадки</p>
+          <p class="footer-menu__column-item">Инструменты</p>
+          <p class="footer-menu__column-item">Гель-лаки</p>
+          <p class="footer-menu__column-item">Дизайн</p>
+          <p class="footer-menu__column-item">Наращивание</p>
+          <p class="footer-menu__column-item">Оборудование</p>
+        </div>
+        <div class="footer-menu__column">
+          <h3 class="footer-menu__column-title">Популярные категории</h3>
+          <p class="footer-menu__column-item">Насадки</p>
+          <p class="footer-menu__column-item">Инструменты</p>
+          <p class="footer-menu__column-item">Гель-лаки</p>
+          <p class="footer-menu__column-item">Дизайн</p>
+          <p class="footer-menu__column-item">Наращивание</p>
+          <p class="footer-menu__column-item">Оборудование</p>
+        </div>
+      </div>
+      </div>
+    </section>
 
 
   </footer>
