@@ -73,7 +73,7 @@ body{
 
 }
 .bg_image {
-    background-image: url('/image/bg-image.png');
+    background-image: url('/image/product/bg-image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,7 +245,7 @@ transform: translate(0, -5px) scale(1.5);
 
 
 .header-middle__search-field{
-    background-image: url(/image/Vector.png);
+    background-image: url('/image/product/Vector.png');
     background-repeat: no-repeat;
     width: 250px;
     height: 40px;
@@ -318,7 +318,7 @@ transform: translate(0, -5px) scale(1.5);
     padding: 40px 35px;
     margin-left: 15px;
     margin-right: 15px;
-    background-image:url('/image/mail.png');
+    background-image:url('/image/product/mail.png');
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 355px;
@@ -368,7 +368,7 @@ transform: translate(0, -5px) scale(1.5);
     padding: 40px 35px;
     margin-left: 15px;
     margin-right: 15px;
-    background-image:url('/image/map.png');
+    background-image:url('/image/product/map.png');
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 306px;
