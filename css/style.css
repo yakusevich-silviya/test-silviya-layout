@@ -27,7 +27,7 @@ body{
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
     padding:0 30px;
@@ -494,6 +494,8 @@ transform: translate(0, -5px) scale(1.5);
         background-image: url('../image/social/instagram.png');
     }
     
+
+
 .footer-middle__address{
     font-style: normal;
     font-weight: normal;
